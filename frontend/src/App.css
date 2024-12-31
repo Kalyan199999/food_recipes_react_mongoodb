@@ -1,0 +1,277 @@
+
+.navbar{
+    border: 1px solid white;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    height: 60px;
+    gap: 55vw;
+
+    box-shadow: 2px 2px  gray;
+}
+
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+
+    gap: 50px;
+
+    font-size:18px;
+}
+
+/* .navbar:hover{
+    background-color: yellow;
+} */
+
+ul li{
+    cursor: pointer;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.home{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.left{
+    /* border: 1px solid red; */
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items:flex-start;
+
+    gap: 30px;
+}
+
+.left button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color:darkslategray;
+
+    border: none;
+}
+
+.right img{
+    width: 20vw;
+    height: 25vh;
+
+    border-radius: 40px;
+}
+
+.bg {
+    position: absolute;
+    top: 35vh;
+}
+
+.wave{
+    width: 100vw;
+}
+
+.all-recipes{
+    /* position: relative;
+    top: 40vh; */
+
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.item-card{
+    width: 15vw;
+    height: 30vh;
+    border: 1px solid gray;
+    box-shadow: 2px 2px gray;
+    
+    padding: 5px;
+
+    /* border: 2px solid red; */
+}
+
+.item-card{
+    width: 15vw;
+    height: 30vh;
+    border: 1px solid gray;
+    box-shadow: 2px 2px gray;
+    
+    padding: 5px;
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+
+.item-card img{
+    width: 15vw;
+    height: 18vh;
+    border-radius: 10px;
+}
+
+.details{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 2px;
+
+    text-align: center;
+    border-radius: 10px;
+}
+
+.details ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 25px;
+}
+
+.details img{
+    width: 20vw;
+    height: 25vh;
+}
+
+.details p{
+    width: 20vw;
+    height: 25vh;
+}
+
+.details button{
+    width: 200px;
+    height: 40px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 30px;
+    color: white;
+    background-color: slategray;
+    text-align: center;
+}
+
+form{
+    width: 50vw;
+    height: 50vh;
+    background-color:crimson;
+
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    border-radius: 25px;
+}
+
+form h1{
+    color: white;
+}
+
+form input,button{
+    width: 30vw;
+    height: 6vh;
+    border-radius: 10px;
+
+    border: none;
+
+    outline: none;
+}
+
+form button{
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white
+}
+
+form span{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.recipe-form{
+    height: 80vh;
+}
+
+.text-area{
+    width: 400px;
+    height: 100px;
+}
+
+.my-recipes{
+
+    margin: 20px;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.each-recipe{
+    width: 400px;
+    height: 500px;
+    
+    border: 1px solid green;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+
+    background-color: rgba(241, 233, 233, 0.404);
+    
+    
+}
+
+.each-recipe img {
+    width: 250px;
+    height: 200px;
+
+    align-self: center;
+}
+.each-recipe span{
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+
+    position:sticky;
+    bottom: 5px;
+}
+
+.icons i{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.heart-color{
+    color: red;
+}
